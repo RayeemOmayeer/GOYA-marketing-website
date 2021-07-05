@@ -1,0 +1,85 @@
+body{
+  font-family: 'Poppins',sans-serif;
+  margin: 0;
+}
+h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+h2{
+  font-size: 30px;
+  font-weight: 700;
+}
+h3{
+  font-size: 16.72px;
+  font-weight: 700;
+}
+p{
+  font-size:14px;
+  font-weight: 30;
+  color: rgb(109, 109, 109);
+}
+.orange-color{
+  color: #FFA500;
+  font-family: 'Otomanopee One',sans-serif;
+}
+.gradient-button {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: #fff;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, #FF9571, #FF6B4D);
+}
+.half-width{
+  width: 50%;
+  margin-left: 70px;
+  margin-bottom: 82px;
+}
+.top-banner{
+  display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.banner-image{
+  margin-top: 30px;
+  width: 400px;
+  height: auto;
+}
+.dream-big{
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.dream-big-img{
+  width: 400px;
+  height: auto;
+}
+.experiences{
+  display: flex;
+  margin-right: 30px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  width: 95%;
+}
+.baby-web{
+  border-left: 6px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+  padding-left: 20px;
+  box-shadow: 5px 5px 5px 5px #9b9a9a9a;
+}
+
+.full-stack-web{
+  border-left: 6px solid;
+  border-image: linear-gradient(180deg, #FF8967, #FF6448);
+  border-image-slice: 1;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px #9b9a9a9a;
+}
+.experiences-heading{
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
